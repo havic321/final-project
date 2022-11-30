@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css" >
+    <title>Mobilogist</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Mobilogist</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+            <a class="navbar-brand" href="#quote">Get a Quote</a>
+          </div>
+    </nav>
+ 
+
+<div class="container-fluid bg-img">
+<h1>Welcome To Mobilogist</h1>
+<p style="text-align: center;">We are here to provide you excellent quality service at the comfort of your homes with only a push of a button.</p>
+  <div class="text-center">  
+<a href="#quote"> 
+<button type="button" class="btn btn-primary btn-lg"><span>Book Now</span></button>
+</a>    
+  </div>
+</div>
+
+
+
+<div class="container-fluid bg-clr" id="service">
+  <div>
+  <h1>Services</h1>
+  </div>
+
+  <section>
+    <div class="container mb-4">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/repairman.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md p-5">
+          <h3>Cellphones</h3>
+          <p class="lead">
+            From Androids to Apple phones
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="container mb-4">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/tablet.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md">
+          <h3>Tablets/Ipad</h3>
+          <p class="lead">
+            From Androids to Apple phones
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/laptop.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md">
+          <h3>Laptop</h3>
+          <p class="lead">
+            From Androids to Apple phones
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+</div>
+
+
+<div class="container-fluid bg-cnt" id="contact">
+  <h1>Contact Us</h1>
+  <h2>(+12) - 345-6789</h2>
+  <h2>example@yahoo.com</h2>
+</div>
+
+<div class="container-fluid bg-frm" id="quote">
+<div class="form">
+  <div class="form-text">
+      <h1>Schedule A Service</h1>
+  </div>
+    <form class="row g-3" action="https://formsubmit.co/410d877db88a4579569f993b66816f1c" method="POST">
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display: none;">
+
+      <!-- Disable Captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="hidden" name="_next" value="#" >
+
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" name="name" id="firstName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+      </div>
+      <div class="col-md-6">
+        <label for="Devices" class="form-label">Device</label>
+      
+
+        <select class="form-select" aria-label="Default select example">
+          <option selected></option>
+          <option value="1">Phone</option>
+          <option value="2">Tablet</option>
+          <option value="3">Laptop</option>
+        </select>
+
+      </div>
+      <div class="col-md-8">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" name="email" id="emailInfo" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phoneNumber" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+      </div>
+      <div class="col-md-12">
+        <label for="comments" class="form-label">Comments about device.</label>
+        <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+</div>
+</div>
+
+
+
+
+<div class="container-fluid bg-abt" id="about">
+  <h1>About Us</h1>
+</div>
+<section id="learn" class="p-5 bg-dark text-light">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md p-5">
+        <h2>We're Mobile</h2>
+        <p class="lead">
+          We are on the move to where ever you need us.
+        </p>
+        <p>
+          With our mobile repair station we can make moves that will be 
+          convenient for our customers. 
+        </p>
+        
+      </div>
+      <div class="col-md">
+        <img src="img/mobilevan.jpeg" class="img-fluid" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="learn" class="p-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+        <img src="img/mobilevan2.jpg" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md p-5">
+        <h2>Friendly Employees</h2>
+        <p class="lead">
+          We are here to always help.
+        </p>
+        <p>
+          Our employees will provide help to you no matter what, if you have 
+          any questions or any tips you want us to give you, always feel free
+          to ask our employees and they will answer all of them within 
+          the best of their knowledge.
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="learn" class="p-5 bg-dark text-light">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md p-5">
+        <h2>Best Quality Service</h2>
+        <p class="lead">
+          We'll make sure to provide top notch quality service to our customers.
+        </p>
+        <p>
+          Our employees will work hard and as fast as possible so that 
+          you may continue cherishing and using the treasured device
+          you have entrust us with. We will make sure it will be returned
+          to you fully functioning without any problems.
+        </p>
+        
+      </div>
+      <div class="col-md">
+        <img src="img/mobilevan3.jpg" class="img-fluid" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2021 Copyright:
+  <a class="text-reset fw-bold" href="index.html">Mobilogist</a>
+</div>
+
+<script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+</script>
+
+</body>
+</html>
